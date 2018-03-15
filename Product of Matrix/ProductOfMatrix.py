@@ -1,4 +1,4 @@
-
+import math
 
 def getProduct(matrixA, matrixB):
     matrixAB = []
@@ -67,12 +67,14 @@ def getSum(arrayA, arrayB):
     return sum
 
 
-A = [[1, 2, 3, 1],[3, 2, 1, 1], [4, 5, 6, 1]]
+A = [[3003, 108],
+     [108, -3003]]
 
-B = [[1, 4], [3, 2],[4, 2],[2, 3]]
+B = [[5, -5],
+     [5, -5]]
 
 
-getProduct(A, B)
+getProduct(A, A)
 
 
 

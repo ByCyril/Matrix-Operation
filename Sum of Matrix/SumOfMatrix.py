@@ -43,9 +43,15 @@ def getSum(matrixA, matrixB):
 			print(columns)
 
 
-a = [[1, 1], [1, 1]]
-b = [[2, 3], [4, 5]]
+a = [[25, 26],
+     [27, 28]]
+
+b = [[29, 30],
+     [31, 32]]
 
 getSum(a, b)
+
+
+
 
 
