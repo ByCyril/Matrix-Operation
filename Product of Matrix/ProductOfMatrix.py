@@ -67,14 +67,15 @@ def getSum(arrayA, arrayB):
     return sum
 
 
-A = [[3003, 108],
-     [108, -3003]]
+A = [[-2, 1, 6],
+     [6, -3, -3],
+     [-1, 8, 3]]
 
-B = [[5, -5],
-     [5, -5]]
+B = [[4],
+     [2],[2]]
 
 
-getProduct(A, A)
+getProduct(A, B)
 
 
 
