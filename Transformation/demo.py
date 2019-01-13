@@ -3,33 +3,15 @@
 import math
 import plotly as py
 from plotly.graph_objs import *
-from ProductOfMatrix import ProductOfMatrix
 
 
 
 def sqrt(x):
 	return x**(1/2)
 
-
-
-
 original = [[2, 5, 5, 3, 3, 5, 5, 2], [7, 7, 6, 6, 3, 3, 2, 2]]
 
 transformation = [[-1/2, sqrt(3)/2], [-sqrt(3)/2, -1/2]]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 def getProduct(matrixA, matrixB):
     matrixAB = []
